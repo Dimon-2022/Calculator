@@ -39,11 +39,6 @@ function Calculator() {
   }
 
   function handleClick(value) {
-    const symbols = ["+", "-", "/", "*", "=", "."];
-
-    //const isDoubleSymbol = symbols.find(symbol=>symbol === input.slice(-1));
-    console.log(input.slice(-1));
-
     if (value === "C") {
       setInput("0");
       return;
